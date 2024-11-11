@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <body>
+        {% include header.html %}
+        <main>
+            {{ content }}
+        </main>
+        {% include footer.html %}
+        
+        <!-- Site Scripts -->
+        <script>
+            // Scroll to top functionality
+            const scrollBtn = document.getElementById('scroll-to-top');
+            
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 300) {
+                    scrollBtn.classList.add('show');
+                } else {
+                    scrollBtn.classList.remove('show');
+                }
+            });
+            
+            scrollBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        </script>
+    </body>
+</html>

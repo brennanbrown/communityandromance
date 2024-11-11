@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<!-- Hero Section -->
+<section id="hero" class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>{{ site.data.site.title }}</h1>
+            {% if site.data.site.subtitle %}
+            <h2 class="mb-4">{{ site.data.site.subtitle }}</h2>
+            {% endif %}
+            <h3 class="mb-4">{{ site.data.site.date }}</h3>
+            <P class="mb-4">
+                {{ site.data.site.quotes[0].text }}
+            </P>
+            <a href="#rsvp" class="btn btn-primary">Register Now</a>
+        </div>
+    </div>
+</section>
+
+<!-- Description & Schedule Section -->
+<section id="description" class="bg-seasalt">
+    <div class="container">
+        <div class="description-section">
+            <div class="content-section">
+                <h2>About the Conference</h2>
+                <div class="about-section">
+                    {{ site.data.site.description | markdownify }}
+                </div>
+                
+                <blockquote>
+                    <p>Dialogue cannot exist, however, in the absence of a profound love for the world and for people … Love is at the same time the foundation of dialogue and dialogue itself.</p>
+                    <footer>—Paulo Freire, Pedagogy of the Oppressed</footer>
+                </blockquote>
+
+                <blockquote>
+                    <p>My friends, love is better than anger. Hope is better than fear. Optimism is better than despair. So let us be loving, hopeful and optimistic. And we'll change the world.</p>
+                    <footer>—Jack Layton</footer>
+                </blockquote>
+            </div>
+            
+            <div class="schedule-container">
+                {% include schedule.html %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Speakers Section -->
+<section id="speakers" class="bg-paynes-gray text-seasalt">
+    <div class="container">
+        <h2 class="text-center mb-4">Featured Speakers</h2>
+        <div class="speakers-grid">
+            {% for speaker in site.data.speakers %}
+                {% include speaker-card.html speaker=speaker %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- RSVP Section -->
+<section id="rsvp" class="bg-lion">
+    <div class="container-narrow">
+        <h2 class="text-center mb-4">Register for the Conference</h2>
+        {% include rsvp.html %}
+    </div>
+</section>
+
+<!-- Venue Section -->
+<section id="venue" class="bg-seasalt">
+    <div class="container">
+        <h2 class="text-center mb-4">Location</h2>
+        {% include venue.html %}
+    </div>
+</section>

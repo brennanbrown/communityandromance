@@ -1,0 +1,61 @@
+<div class="schedule-section">
+    <h3 class="mb-4">Schedule</h3>
+    
+    {% for item in site.data.schedule.morning %}
+    <div class="schedule-item">
+        <div class="schedule-time">{{ item.time }}</div>
+        {% if item.event %}
+        <div class="schedule-event">
+            <div class="schedule-event-title">{{ item.event }}</div>
+            {% if item.details %}
+            <p>{{ item.details }}</p>
+            {% endif %}
+        </div>
+        {% endif %}
+        
+        {% if item.events %}
+        {% for event in item.events %}
+        <div class="schedule-event">
+            <div class="schedule-event-title">{{ event.type }}</div>
+            {% if event.speaker %}
+            <p>{{ event.speaker }}</p>
+            {% if event.title %}
+            <p><em>{{ event.title }}</em></p>
+            {% endif %}
+            {% endif %}
+            
+            {% if event.speakers %}
+            {% for speaker in event.speakers %}
+            <p>{{ speaker.name }}</p>
+            {% if speaker.title %}
+            <p><em>{{ speaker.title }}</em></p>
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+    {% endfor %}
+    
+    {% for item in site.data.schedule.afternoon %}
+    <div class="schedule-item">
+        <div class="schedule-time">{{ item.time }}</div>
+        <div class="schedule-event">
+            <div class="schedule-event-title">{{ item.event }}</div>
+            {% if item.details %}
+            <p>{{ item.details }}</p>
+            {% endif %}
+        </div>
+        
+        {% if item.speakers %}
+        {% for speaker in item.speakers %}
+        <p>{{ speaker.name }}</p>
+        {% if speaker.title %}
+        <p><em>{{ speaker.title }}</em></p>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>

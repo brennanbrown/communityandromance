@@ -1,0 +1,48 @@
+<header class="navbar">
+    <div class="container">
+        <nav class="nav-container">
+            <div class="nav-brand">
+                <a href="#" class="brand-text">MRU English Honours Conference 2024</a>
+            </div>
+            
+            <button class="mobile-menu-button" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+
+            <ul class="nav-links">
+                {% for item in site.data.navigation %}
+                <li>
+                    <a href="{{ item.url }}" {% if item.url == page.url %}class="active"{% endif %}>
+                        {{ item.title }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<script>
+document.querySelector('.mobile-menu-button').addEventListener('click', function() {
+    this.classList.toggle('active');
+    document.querySelector('.nav-links').classList.toggle('active');
+});
+
+// Close menu when clicking outside
+document.addEventListener('click', function(event) {
+    const nav = document.querySelector('.nav-container');
+    const button = document.querySelector('.mobile-menu-button');
+    if (!nav.contains(event.target)) {
+        button.classList.remove('active');
+        document.querySelector('.nav-links').classList.remove('active');
+    }
+});
+
+// Close menu when clicking a link
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        document.querySelector('.mobile-menu-button').classList.remove('active');
+        document.querySelector('.nav-links').classList.remove('active');
+    });
+});
+</script>

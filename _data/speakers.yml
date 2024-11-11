@@ -1,0 +1,47 @@
+- name: "Dr. Robert Boschman"
+  title: "Chair of the English Department"
+  role: "Welcome Address"
+  image: "boschman.jpg" # [NEED: Speaker photo]
+  bio: | # [NEED: Speaker bio]
+    Dr. Robert Boschman serves as the Chair of the English Department at Mount Royal University.
+  writing_sample: "#" # [NEED: Link to writing sample if available]
+
+- name: "Meg Braem"
+  title: "Keynote Speaker"
+  role: "Keynote Address"
+  image: "braem.jpg" # [NEED: Speaker photo]
+  bio: | # [NEED: Speaker bio]
+    Meg Braem is an accomplished playwright and author...
+  writing_sample: "#" # [NEED: Link to writing sample]
+
+- name: "Felix Da Costa Gomez"
+  title: "Presenter"
+  role: "Community Paper Session"
+  image: "gomez.jpg" # [NEED: Speaker photo]
+  bio: | # [NEED: Speaker bio]
+    Felix Da Costa Gomez is...
+  writing_sample: "#" # [NEED: Link to writing sample]
+
+- name: "Kenneth Brown"
+  title: "Presenter"
+  role: "Community Paper Session"
+  image: "brown.jpg" # [NEED: Speaker photo]
+  bio: | # [NEED: Speaker bio]
+    Kenneth Brown is...
+  writing_sample: "#" # [NEED: Link to writing sample]
+
+- name: "Sean Feeney"
+  title: "Presenter"
+  role: "Romantic Presentation Session"
+  image: "feeney.jpg" # [NEED: Speaker photo]
+  bio: | # [NEED: Speaker bio]
+    Sean Feeney is...
+  writing_sample: "#" # [NEED: Link to writing sample]
+
+- name: "Ava Pusztai"
+  title: "Presenter"
+  role: "Romantic Presentation Session"
+  image: "pusztai.jpg" # [NEED: Speaker photo]
+  bio: | # [NEED: Speaker bio]
+    Ava Pusztai is...
+  writing_sample: "#" # [NEED: Link to writing sample]

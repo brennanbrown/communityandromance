@@ -1,0 +1,27 @@
+<article class="speaker-card">
+    {% if include.speaker.image %}
+        <div class="speaker-image-container">
+            <img 
+                src="{{ '/assets/images/speakers/' | append: include.speaker.image | relative_url }}" 
+                alt="{{ include.speaker.name }}"
+                class="speaker-image"
+                loading="lazy"
+            >
+        </div>
+    {% endif %}
+    <div class="speaker-info">
+        <h3 class="speaker-name">{{ include.speaker.name }}</h3>
+        <p class="speaker-title">{{ include.speaker.title }}</p>
+        {% if include.speaker.role %}
+            <p class="speaker-role">{{ include.speaker.role }}</p>
+        {% endif %}
+        <div class="speaker-bio">
+            {{ include.speaker.bio | markdownify }}
+        </div>
+        {% if include.speaker.writing_sample %}
+            <a href="{{ include.speaker.writing_sample }}" class="btn btn-primary mt-3" target="_blank" rel="noopener">
+                View Writing Sample
+            </a>
+        {% endif %}
+    </div>
+</article>

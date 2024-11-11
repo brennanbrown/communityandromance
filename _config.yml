@@ -1,0 +1,40 @@
+# Site Settings
+title: MRU English Honours Conference Fall 2024
+email: english@mtroyal.ca # [NEED: Confirm email]
+description: >-
+  The MRU English Honours Conference explores the intersection of Romance and Community
+  in literature, relationships, and societal change.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # [NEED: Confirm production URL]
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
+  - LICENSE
+
+# Collections
+collections:
+  speakers:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Sass processing (if we decide to use it later)
+sass:
+  style: compressed

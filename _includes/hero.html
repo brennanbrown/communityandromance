@@ -1,0 +1,13 @@
+<section class="hero">
+    <div class="hero-content">
+        <h1 class="mb-3">{{ site.data.site.title }}</h1>
+        {% if site.data.site.subtitle %}
+        <p class="mb-4">{{ site.data.site.subtitle }}</p>
+        {% endif %}
+        <p class="mb-4">{{ site.data.site.date }}</p>
+        <blockquote class="mb-4">
+            {{ site.data.site.quotes[0].text }}
+        </blockquote>
+        <a href="#rsvp" class="btn btn-primary">Register Now</a>
+    </div>
+</section>
