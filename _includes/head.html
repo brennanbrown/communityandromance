@@ -2,6 +2,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <!-- Primary Meta Tags -->
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.data.site.title }}</title>
     <meta name="title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.data.site.title }}">
@@ -76,4 +80,24 @@
     </script>
     <!-- Scripts -->
     <script src="{{ '/assets/js/images.js' | relative_url }}" defer></script>
+
+    <!-- Font Fallback CSS -->
+    <style>
+        /* Font fallback strategy */
+        @font-face {
+            font-family: 'EB Garamond';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('Georgia');
+        }
+        
+        @font-face {
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('system-ui');
+        }
+    </style>
 </head>
