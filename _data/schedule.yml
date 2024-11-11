@@ -13,9 +13,9 @@ morning:
       - type: "Community Paper Session"
         speakers:
           - name: "Felix Da Costa Gomez"
-            title: "TBA" # [NEED: Paper title]
+            title: "Deterritorializing the Creative Writing Workshop: A Phenomenological Study on the Writing Workshop"
           - name: "Kenneth Brown"
-            title: "TBA" # [NEED: Paper title]
+            title: "HOW THE ENGLISH DEGREE WILL SAVE THE WORLD: Queering, Decolonizing and Democratizing Literary Studies"
 afternoon:
   - time: "12:00pm-1:00pm"
     event: "Lunch"
@@ -29,6 +29,6 @@ afternoon:
     event: "Romantic Presentation Session"
     speakers:
       - name: "Sean Feeney"
-        title: "TBA" # [NEED: Presentation title]
+        title: "Victorian Adventure Fiction Research Proposal"
       - name: "Ava Pusztai"
-        title: "TBA" # [NEED: Presentation title]
+        title: "Representations of Love and Mortality in the Writing of John Keats"
