@@ -26,9 +26,9 @@
             
             {% if event.speakers %}
             {% for speaker in event.speakers %}
-            <p>{{ speaker.name }}</p>
+            <p><em>{{ speaker.name }}</em></p>
             {% if speaker.title %}
-            <p><em>{{ speaker.title }}</em></p>
+            <p>{{ speaker.title }}</p>
             {% endif %}
             {% endfor %}
             {% endif %}
