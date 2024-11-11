@@ -69,6 +69,20 @@ img {
     display: block;
 }
 
+img:not(.hero-background) {
+  filter: grayscale(100%);
+  transition: filter var(--transition-normal);
+}
+
+img:not(.hero-background):hover,
+img:not(.hero-background).color {
+  filter: grayscale(0%);
+}
+
+.link {
+  color: white;
+}
+
 /* Typography
    ========================================================================== */
 h1, h2, h3, h4, h5, h6 {
@@ -262,7 +276,7 @@ section {
 
 /* Hero Section
    ========================================================================== */
-.hero {
+   .hero {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -271,6 +285,10 @@ section {
     position: relative;
     color: var(--color-seasalt);
     background-color: var(--color-raisin-black);
+    background-image: url('../images/hero/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin-top: 0;
     padding: var(--spacing-xl) 0;
 }
@@ -281,8 +299,8 @@ section {
     inset: 0;
     background: linear-gradient(
         to bottom,
-        rgba(35, 27, 38, 0.8),
-        rgba(84, 102, 128, 0.8)
+        rgba(35, 27, 38, 0.5),  /* Reduced from 0.85 */
+        rgba(84, 102, 128, 0.5)  /* Reduced from 0.85 */
     );
 }
 
@@ -292,12 +310,55 @@ section {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 var(--spacing-lg);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero h1 {
     margin-bottom: var(--spacing-lg);
+    font-size: 4rem;
+    line-height: 1.1;
 }
 
+.hero h2 {
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-md);
+    font-weight: normal;
+}
+
+.hero h3 {
+    font-family: var(--font-body);
+    font-size: 2rem;
+    margin-bottom: var(--spacing-lg);
+    font-weight: normal;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+    
+    .hero h2 {
+        font-size: 2rem;
+    }
+    
+    .hero h3 {
+        font-size: 1.5rem;
+    }
+    
+    .hero p {
+        font-size: 1.25rem;
+    }
+}
 /* Description Section
    ========================================================================== */
 .description-section {

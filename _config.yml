@@ -1,11 +1,11 @@
 # Site Settings
 title: MRU English Honours Conference Fall 2024
-email: english@mtroyal.ca # [NEED: Confirm email]
+email: bbrow477@mtroyal.ca # [NEED: Confirm email]
 description: >-
   The MRU English Honours Conference explores the intersection of Romance and Community
   in literature, relationships, and societal change.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # [NEED: Confirm production URL]
+url: honoursconference2024.com # [NEED: Confirm production URL]
 
 # Build settings
 markdown: kramdown

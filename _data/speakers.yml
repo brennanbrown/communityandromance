@@ -1,47 +1,41 @@
 - name: "Dr. Robert Boschman"
   title: "Chair of the English Department"
   role: "Welcome Address"
-  image: "boschman.jpg" # [NEED: Speaker photo]
-  bio: | # [NEED: Speaker bio]
-    Dr. Robert Boschman serves as the Chair of the English Department at Mount Royal University.
-  writing_sample: "#" # [NEED: Link to writing sample if available]
+  image: "boschman.jpg"
+  bio: "Chair of the Department of English, Languages, and Cultures at MRU, Dr. Boschman specializes in Environmental Humanities and Place Studies. He is the author of multiple books including White Coal City: A Memoir of Place and Family and is the 2021 winner of the Mount Royal University Research and Scholarship Award."
+  writing_sample: "https://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Arts/Departments/EnglishLanguagesCultures/FacultyStaff/RobertBoschman.htm"
 
 - name: "Meg Braem"
   title: "Keynote Speaker"
   role: "Keynote Address"
-  image: "braem.jpg" # [NEED: Speaker photo]
-  bio: | # [NEED: Speaker bio]
-    Meg Braem is an accomplished playwright and author...
-  writing_sample: "#" # [NEED: Link to writing sample]
+  image: "braem.jpg"
+  bio: "Meg Braem is an award-winning playwright whose work has been presented at major theatres across Canada. Her plays have won the Gwen Pharis Ringwood Award for Drama and the Alberta Playwriting Competition, with Blood: A Scientific Romance receiving a Governor General's Literary Award nomination for Drama."
+  writing_sample: "https://www.playwrightscanada.com/Authors/B/Braem-Meg"
 
 - name: "Felix Da Costa Gomez"
   title: "Presenter"
   role: "Community Paper Session"
-  image: "gomez.jpg" # [NEED: Speaker photo]
-  bio: | # [NEED: Speaker bio]
-    Felix Da Costa Gomez is...
-  writing_sample: "#" # [NEED: Link to writing sample]
+  image: "gomez.jpg"
+  bio: "A fourth-year English Honours student at Mount Royal University, Felix specializes in Critical Theory and Creative Writing. He recently published a poetry book titled I am Just Waiting for Something to Happen and serves as Vice President of Publishing for MRU's Creative Writing Club working on their second anthology."
+  writing_sample: "https://www.amazon.ca/Im-Just-Waiting-Something-Happen/dp/B0CH2CVTP2/"
 
 - name: "Kenneth Brown"
   title: "Presenter"
   role: "Community Paper Session"
-  image: "brown.jpg" # [NEED: Speaker photo]
-  bio: | # [NEED: Speaker bio]
-    Kenneth Brown is...
-  writing_sample: "#" # [NEED: Link to writing sample]
+  image: "brown.jpg"
+  bio: "A Queer Métis writer and scholar, Kenneth is completing his English Honours at MRU while serving as Founder and President of the Write Club. His work explores Indigenous resilience and narrative sovereignty, recently publishing research in the Mount Royal Undergraduate Humanities Review."
+  writing_sample: "https://brennanbrown.ca/"
 
 - name: "Sean Feeney"
   title: "Presenter"
   role: "Romantic Presentation Session"
-  image: "feeney.jpg" # [NEED: Speaker photo]
-  bio: | # [NEED: Speaker bio]
-    Sean Feeney is...
-  writing_sample: "#" # [NEED: Link to writing sample]
+  image: "feeney.jpg"
+  bio: "An English Honours Student at MRU, Séan focuses on critical theory, editing, and creative writing. His academic interests span multicultural literature and nineteenth-century studies, with aspirations toward a career in education while pursuing personal writing projects."
+  writing_sample: "#"
 
 - name: "Ava Pusztai"
   title: "Presenter"
   role: "Romantic Presentation Session"
-  image: "pusztai.jpg" # [NEED: Speaker photo]
-  bio: | # [NEED: Speaker bio]
-    Ava Pusztai is...
-  writing_sample: "#" # [NEED: Link to writing sample]
+  image: "pusztai.jpg"
+  bio: "Ava Pusztai is..."
+  writing_sample: "#"

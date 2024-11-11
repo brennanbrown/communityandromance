@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Hero Section -->
-<section id="hero" class="hero">
+<section id="hero" class="hero" role="banner">
     <div class="container">
         <div class="hero-content">
             <h1>{{ site.data.site.title }}</h1>
@@ -11,13 +11,12 @@ layout: default
             <h2 class="mb-4">{{ site.data.site.subtitle }}</h2>
             {% endif %}
             <h3 class="mb-4">{{ site.data.site.date }}</h3>
-            <P class="mb-4">
-                {{ site.data.site.quotes[0].text }}
-            </P>
+            <p class="mb-4">{{ site.data.site.quotes[0].text }}</p>
             <a href="#rsvp" class="btn btn-primary">Register Now</a>
         </div>
     </div>
 </section>
+
 
 <!-- Description & Schedule Section -->
 <section id="description" class="bg-seasalt">
