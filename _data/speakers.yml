@@ -3,39 +3,100 @@
   role: "Welcome Address"
   image: "boschman.jpg"
   bio: "Chair of the Department of English, Languages, and Cultures at MRU, Dr. Boschman specializes in Environmental Humanities and Place Studies. He is the author of multiple books including White Coal City: A Memoir of Place and Family and is the 2021 winner of the Mount Royal University Research and Scholarship Award."
-  writing_sample: "https://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Arts/Departments/EnglishLanguagesCultures/FacultyStaff/RobertBoschman.htm"
+  extended_bio: |
+    Robert Boschman specializes in Environmental Humanities and Place Studies, with emphasis on uranium extraction abandonments and their intersection with environmental justice. His research takes environmental justice as the focal point for ecocritical approaches to American literature.
+
+    As Chair of the Department of English, Languages, and Cultures at Mount Royal University, Dr. Boschman has been instrumental in fostering community engagement and academic excellence. He is co-founder and co-convener of the award-winning Under Western Skies biennial conference series on the environment (2010-2016) and past president of the Association for Literature, Environment, and Culture in Canada (ALECC).
+
+    His publications include "Found in Alberta: Environmental Themes for the Anthropocene" (2014), "On Active Grounds: Agency and Time in the Environmental Humanities" (2019), and "Signs of Water: Community Perspectives on Water, Responsibility, and Hope" (2022).
+  presentation_abstract: |
+    In his welcome address, Dr. Boschman will explore the vital connections between romance, community, and environmental consciousness in contemporary literary studies. Drawing from his extensive research in environmental humanities, he will discuss how romantic ideals can inspire collective action and foster meaningful engagement with pressing ecological concerns.
+  writing_sample: "#"
 
 - name: "Meg Braem"
   title: "Keynote Speaker"
   role: "Keynote Address"
   image: "braem.jpg"
   bio: "Meg Braem is an award-winning playwright whose work has been presented at major theatres across Canada. Her plays have won the Gwen Pharis Ringwood Award for Drama and the Alberta Playwriting Competition, with Blood: A Scientific Romance receiving a Governor General's Literary Award nomination for Drama."
-  writing_sample: "https://www.playwrightscanada.com/Authors/B/Braem-Meg"
+  extended_bio: |
+    Meg Braem's work has consistently pushed the boundaries of contemporary Canadian theatre. Her plays have been presented at the Citadel Theatre, Theatre Calgary, Lunchbox Theatre, the Belfry Theatre, and numerous other prestigious venues. Her deep understanding of human relationships and community dynamics has earned her critical acclaim and numerous accolades.
 
-- name: "Felix Da Costa Gomez"
-  title: "Presenter"
-  role: "Community Paper Session"
-  image: "gomez.jpg"
-  bio: "A fourth-year English Honours student at Mount Royal University, Felix specializes in Critical Theory and Creative Writing. He recently published a poetry book titled I am Just Waiting for Something to Happen and serves as Vice President of Publishing for MRU's Creative Writing Club working on their second anthology."
-  writing_sample: "https://www.amazon.ca/Im-Just-Waiting-Something-Happen/dp/B0CH2CVTP2/"
+    As the Lee Playwright in Residence at the University of Alberta and co-director of the Alberta Theatre Projects Playwrights Unit, Braem has mentored emerging writers and contributed significantly to Canada's theatrical landscape. Her work often explores themes of connection, scientific inquiry, and the complex bonds that form between people in extraordinary circumstances.
 
-- name: "Kenneth Brown"
-  title: "Presenter"
-  role: "Community Paper Session"
-  image: "brown.jpg"
-  bio: "A Queer Métis writer and scholar, Kenneth is completing his English Honours at MRU while serving as Founder and President of the Write Club. His work explores Indigenous resilience and narrative sovereignty, recently publishing research in the Mount Royal Undergraduate Humanities Review."
-  writing_sample: "https://brennanbrown.ca/"
+    Her upcoming book, "Feminist Resistance: A Graphic Approach," co-authored with Norah Bowman and Domique Hui, represents her commitment to exploring new forms of storytelling and community engagement.
+  presentation_abstract: |
+    In her keynote address, Meg Braem will explore the transformative power of romantic ideals in contemporary storytelling. Drawing from her experience as both playwright and educator, she will discuss how romance—in its broadest sense—can serve as a catalyst for social change and community building in both theatrical and academic contexts.
+
+    The address will examine how romantic narratives can challenge conventional wisdom, inspire collective action, and foster deeper connections within academic and creative communities.
+  writing_sample: "#"
 
 - name: "Sean Feeney"
   title: "Presenter"
   role: "Romantic Presentation Session"
   image: "feeney.jpg"
   bio: "An English Honours Student at MRU, Séan focuses on critical theory, editing, and creative writing. His academic interests span multicultural literature and nineteenth-century studies, with aspirations toward a career in education while pursuing personal writing projects."
+  extended_bio: |
+    Séan Feeney is a 27-year-old English Honours Student at Mount Royal University. Throughout his academic career at MRU, he has found the most value in classes pertaining to critical theory, editing, multicultural literature, creative writing, and the nineteenth century. Utilizing the skills in writing he has developed over the years, combined with the work ethic of several years in the kitchen industry, Séan is proud of what he has produced for classes, as well as in his personal projects. He hopes to apply these skills to an active and rewarding career in education, while also engaging in writing projects he cares about. 
+    
+    Séan has also slowly learned the value of community, helped by the Creative Writing club and the amazing scholars and writers he has had the pleasure of meeting in the English degree. All of Séan’s achievements have been made possible by his amazing friends, the support of his parents, the snuggles from his dog, Finnigan-Walter who is his loyal study buddy, and greatest headache, and finally the unwavering, unconditional love of his partner, Hope. 
+  presentation_abstract: |
+    Colonial adventure fiction of the late nineteenth-century and early twentieth-century is a genre that the Western canon has celebrated since its inception. The works of authors including Joseph Conrad, Jules Verne, and H. Rider Haggard have been vessels of racism, imperialism, exploitation, animal cruelty, misogyny, and the perpetuation of rich, white men as an inherent ruling class. These ideals have been not-so-carefully disguised into fun and exciting adventures that take brave adventurers to exotic locales, where action and mystery await them. 
+    
+    Séan Feeney’s Honours project is a work of creative writing that seeks to implement researched criticism into a story that is recognizable to the genre, but subverts the deplorable aspects. This will be a critical look at the forms and tropes of colonial adventures, and question their positions as perpetuating the ideals that were previously listed. By de-canonizing these ideals within its own genre, this project hopes to open up discussion and serve as an example that adventures into the unknown, and their accompanying Victorian aesthetics, can be utilized in a modern context without celebrating damaging ideologies that have consequences to this day. 
+  writing_sample: "#"
+
+
+- name: "Felix Da Costa Gomez"
+  title: "Presenter"
+  role: "Community Paper Session"
+  image: "gomez.jpg"
+  bio: "A fourth-year English Honours student at MRU, Felix specializes in Critical Theory and Creative Writing. He recently published a poetry book titled I am Just Waiting for Something to Happen and serves as VP of Publishing for MRU's Creative Writing Club."
+  extended_bio: |
+    Felix Da Costa Gomez is a twenty-one year old writer in his fourth and final year of his English Honours degree at Mount Royal University. Out of the wide array of classes offered in the English program, Felix’s interests are in the topics of Critical Theory and Creative Writing. On top of his Honours thesis, Felix has been working on a Western Novel Trilogy that includes elements of fantasy and subversive topics to reimagine the genre. In 2023, Felix published a poetry book titled I am Just Waiting for Something to Happen with his peer and friend Jake Beka, telling an anti-coming of age story that was brutally honest in its disgusting and beautiful subject matter. 
+    
+    Additionally, Felix is part of Mount Royal University’s Creative Writing Club and has been a casual member since 2022, recently being given the position of VP of Publishing and overseeing the club’s anthology project. Last year, Felix worked in the publishing committee as an editor to publish Write Club’s first anthology On the Fringe: A Collection of Filth, which covered the genres of fiction, non-fiction, and poetry to display the worst aspects of humanity through the theme of taboo. Felix strives to help others see the value and beauty of writing as an art form and to foster strong relations with fellow writers and academics. 
+    
+    Felix hopes to pursue a Masters in English with a specialization in Creative Writing, and he is determined to get his PhD and become a professor and a recognized writer.
+
+  presentation_abstract: |
+    As an undergraduate completing an English degree with a minor in Creative Writing, the Creative Writing Workshop has become a quintessential and reoccurring theme in my life. Assessing my own subjective experiences when it comes to the workshops I have participated in, this research essay applies the practice of phenomenology and its theory of subjectivity to the Creative Writing Workshop to better understand the workshop structure and its participants. Through assessing subjective accounts from different sources, there is evidence that implies that the workshop needs to change and address criticism when it comes to the workshop’s legitimacy as an academic practice. Arguments against the workshop suggest that a system that is supposed to uplift the author focuses instead on the subjectivity of the reader in which the workshop breeds critics rather than writers. Other arguments suggest that the workshop is not supposed to uplift the author, but to improve one’s writing.
+    
+    To base criticism on the workshop using phenomenology, this research essay looks at the institutionalization of creative thinking, the subjectivity of the instructor as well as the workshop participants, and what occurs when an individual is presently in the workshop environment. The workshop will be traced back and explained as a product of culture and how the workshop system has done little to evolve and meet the needs of workshop participants. Through covering phenomenology and workshop structure, this paper dismantles the traditional workshop and argues for an alternative that is sympathetic in equal parts to both reader and writer.  
+
+  writing_sample: "#"
+
+- name: "B. Kenneth Brown"
+  title: "Presenter"
+  role: "Community Paper Session"
+  image: "brown.jpg"
+  bio: "A Queer Métis writer and scholar from Winnipeg, Kenneth is completing his English Honours at MRU while serving as Founder and President of the Write Club. His work explores Indigenous resilience and narrative sovereignty."
+  extended_bio: |
+    B. Kenneth Brown is an accomplished Queer Métis writer, scholar, and open-source web developer serving as the Founder and President of the Write Club. Currently completing his English Honours at Mount Royal University, his academic work explores Indigenous resilience, identity, and narrative sovereignty. His recently published research in the Mount Royal Undergraduate Humanities Review examines Indigenous representation in graphic novels, specifically analyzing "Nimkii" from This Place: 150 Years Retold and its portrayal of community resilience during the Sixties Scoop.
+    
+    As a poet, Brown's debut chapbook Holy Waterfall: 16 New & Selected Poems for Mohkínstsis akápiyoyis & the Red River (2023) weaves together themes of Indigenous identity, spirituality, and personal transformation. Through confessional poetry and outsider art, his work creates spaces for healing and celebration while exploring the intersections of Queer and Indigenous perspectives.
+
+    Combining his passion for literature with community development, Brown dedicates himself to empowering marginalized voices and creating lasting impact through storytelling. His multifaceted expertise spans creative writing, technical documentation, digital marketing, and educational initiatives. Whether developing innovative content strategies or fostering community engagement, he approaches each project with analytical insight and collaborative spirit.
+
+    Connect with Kenneth to discuss new opportunities or share ideas over a cup of decaf coffee at mail@brennanbrown.ca
+  presentation_abstract: |
+    Kenneth's thesis presents a bold metadisciplinary examination of the English major within Canadian universities. This innovative research project argues for the radical reconstruction of the degree through three key approaches: democratization (dismantling paywalled elitism), decolonization (challenging Eurocentric curricula), and Queering (embracing diverse identities in content and approach). Grounded in Freirean pedagogy of love, the thesis positions the English degree as an essential force for fostering critical thinking and reducing societal polarization.
+
+    The project uniquely combines rigorous academic analysis with creative autoethnography. The scholarly component includes comparative analysis of English degree requirements across Canadian universities, examination of course syllabi, and synthesis of existing research on decolonial approaches to education. This is complemented by a modern "campus novel" that explores academia from 2SLGBTQ+ and Mixed-Indigenous perspectives, while deconstructing and reimagining the Dark Academia genre that significantly influences Generation Z's perception of literary studies.
+
+    Through this dual approach, Brown's thesis addresses critical issues in higher education while demonstrating the English degree's potential as an emancipatory force. The research provides practical frameworks for institutional reform while exploring how love for literature and language can revitalize the degree's perception among digital native students. This work contributes to ongoing conversations about the future of humanities education, arguing that a transformed English degree is vital for developing the next generation of concerned, empathetic citizens.
   writing_sample: "#"
 
 - name: "Ava Pusztai"
   title: "Presenter"
   role: "Romantic Presentation Session"
   image: "pusztai.jpg"
-  bio: "Ava Pusztai is..."
+  bio: "An English Honours student at MRU focusing on Romantic poetry and its intersections with modern interpretations of love and mortality."
+  extended_bio: |
+    Ava Pusztai's research focuses on the enduring relevance of Romantic poetry in contemporary discourse. Her work examines how Romantic poets' explorations of love, mortality, and beauty continue to resonate with modern readers and influence current literary production.
+
+    As an emerging scholar in the field of Romantic studies, Ava brings fresh perspectives to classical works while maintaining rigorous academic standards. Her research interests include the intersection of personal and universal themes in Romantic poetry.
+  presentation_abstract: |
+    "Representations of Love and Mortality in the Writing of John Keats" examines how Keats's poetry interweaves themes of romance and death to create a unique perspective on human experience. The presentation will explore how Keats's work continues to influence contemporary understandings of love, mortality, and artistic expression.
+
+    Through close reading and historical context, this analysis will demonstrate the enduring relevance of Romantic poetry to modern discussions of love and mortality.
   writing_sample: "#"

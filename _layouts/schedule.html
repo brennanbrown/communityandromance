@@ -1,0 +1,137 @@
+---
+layout: default
+---
+<main class="schedule-page">
+    <div class="container-narrow">
+        <header class="page-header">
+            <h1>Conference Schedule</h1>
+            <div class="schedule-actions">
+                <button onclick="window.print()" class="btn btn-primary print-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                        <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                        <rect x="6" y="14" width="12" height="8"></rect>
+                    </svg>
+                    Print Schedule
+                </button>
+            </div>
+        </header>
+
+        <div class="schedule-overview">
+            <div class="overview-card">
+                <h2>Event Details</h2>
+                <ul class="event-details">
+                    <li><strong>Date:</strong> December 6th, 2024</li>
+                    <li><strong>Time:</strong> 10:00 AM - 3:30 PM</li>
+                    <li><strong>Location:</strong> The Knuckle (Room 3001)</li>
+                    <li><strong>Registration:</strong> Free admission</li>
+                </ul>
+            </div>
+
+            <div class="overview-card">
+                <h2>Quick Links</h2>
+                <ul class="quick-links">
+                    <li><a href="#morning">Morning Sessions</a></li>
+                    <li><a href="#lunch">Lunch Break</a></li>
+                    <li><a href="#afternoon">Afternoon Sessions</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="schedule-content">
+            <section id="morning" class="schedule-section">
+                <h2>Morning Sessions</h2>
+                {% for item in site.data.schedule.morning %}
+                <div class="schedule-item">
+                    <div class="schedule-time">
+                        <time datetime="{{ item.time | replace: ' ', '' }}">{{ item.time }}</time>
+                        {% if item.location %}
+                        <div class="location-tag">{{ item.location }}</div>
+                        {% endif %}
+                    </div>
+                    
+                    {% if item.event %}
+                    <div class="schedule-event single-event">
+                        <h3>{{ item.event }}</h3>
+                        {% if item.details %}
+                        <p class="event-details">{{ item.details }}</p>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+
+                    {% if item.events %}
+                    <div class="schedule-events">
+                        {% for event in item.events %}
+                        <div class="schedule-event">
+                            <h3>{{ event.type }}</h3>
+                            {% if event.speakers %}
+                            <div class="event-speakers">
+                                {% for speaker in event.speakers %}
+                                <div class="speaker-info">
+                                    <h4>{{ speaker.name }}</h4>
+                                    {% if speaker.title %}
+                                    <p class="presentation-title">{{ speaker.title }}</p>
+                                    {% endif %}
+                                </div>
+                                {% endfor %}
+                            </div>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </section>
+
+            <section id="lunch" class="schedule-section">
+                <h2>Lunch Break</h2>
+                {% assign lunch = site.data.schedule.afternoon | where: "event", "Lunch" | first %}
+                <div class="schedule-item lunch-break">
+                    <div class="schedule-time">
+                        <time datetime="{{ lunch.time | replace: ' ', '' }}">{{ lunch.time }}</time>
+                    </div>
+                    <div class="schedule-event">
+                        <h3>{{ lunch.event }}</h3>
+                        <p class="event-details">{{ lunch.details }}</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="afternoon" class="schedule-section">
+                <h2>Afternoon Sessions</h2>
+                {% assign afternoon_sessions = site.data.schedule.afternoon | where_exp: "item", "item.event != 'Lunch'" %}
+                {% for item in afternoon_sessions %}
+                <div class="schedule-item">
+                    <div class="schedule-time">
+                        <time datetime="{{ item.time | replace: ' ', '' }}">{{ item.time }}</time>
+                        {% if item.location %}
+                        <div class="location-tag">{{ item.location }}</div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="schedule-event">
+                        <h3>{{ item.event }}</h3>
+                        {% if item.details %}
+                        <p class="event-details">{{ item.details }}</p>
+                        {% endif %}
+                        
+                        {% if item.speakers %}
+                        <div class="event-speakers">
+                            {% for speaker in item.speakers %}
+                            <div class="speaker-info">
+                                <h4>{{ speaker.name }}</h4>
+                                {% if speaker.title %}
+                                <p class="presentation-title">{{ speaker.title }}</p>
+                                {% endif %}
+                            </div>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </section>
+        </div>
+    </div>
+</main>

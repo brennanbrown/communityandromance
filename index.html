@@ -17,7 +17,6 @@ layout: default
     </div>
 </section>
 
-
 <!-- Description & Schedule Section -->
 <section id="description" class="bg-seasalt">
     <div class="container">
@@ -26,8 +25,9 @@ layout: default
                 <h2>About the Conference</h2>
                 <div class="about-section">
                     {{ site.data.site.description | markdownify }}
+                    <p class="papers-summary">Our presenters explore diverse manifestations of romance and community in literature and academia. Felix Da Costa Gomez examines how the creative writing workshop can be transformed through a phenomenological lens, reimagining these spaces as sites of communal growth and romantic engagement with craft. Kenneth Brown's passionate call for change demonstrates how the English degree itself can be a revolutionary act of love, proposing methods for queering, decolonizing, and democratizing literary studies. In our Romantic Presentation Session, Sean Feeney investigates Victorian Adventure Fiction, exploring how these texts foster idealistic visions of exploration and human potential, while Ava Pusztai delves into John Keats's profound meditations on love and mortality, revealing how Romantic poetry creates intimate connections across centuries. Together, these papers showcase how romance—whether through pedagogical innovation, institutional transformation, adventure narratives, or lyric poetry—has the power to build and sustain meaningful communities.</p>
                 </div>
-                
+
                 <blockquote>
                     <p>Dialogue cannot exist, however, in the absence of a profound love for the world and for people … Love is at the same time the foundation of dialogue and dialogue itself.</p>
                     <footer>—Paulo Freire, Pedagogy of the Oppressed</footer>
@@ -45,6 +45,20 @@ layout: default
         </div>
     </div>
 </section>
+
+<section class="group-photo-section bg-seasalt">
+    <div class="container">
+        <div class="photo-content">
+            <img 
+                src="{{ '/assets/images/group-photo.jpg' | relative_url }}" 
+                alt="MRU English Honours Conference Community" 
+                class="group-photo"
+                loading="lazy"
+            >
+        </div>
+    </div>
+</section>
+
 
 <!-- Speakers Section -->
 <section id="speakers" class="bg-paynes-gray text-seasalt">

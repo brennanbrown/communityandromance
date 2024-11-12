@@ -1,0 +1,165 @@
+---
+layout: default
+---
+<main class="speakers-page">
+    <div class="container">
+        <header class="page-header text-center">
+            <h1>Featured Speakers</h1>
+            <p class="lead">Join us for an extraordinary lineup of scholars and researchers presenting at the MRU English Honours Conference 2024.</p>
+        </header>
+
+        <!-- Keynote Section -->
+        <section class="keynote-section">
+            <h2>Keynote Speaker</h2>
+            {% assign keynote = site.data.speakers | where: "role", "Keynote Address" | first %}
+            <article class="keynote-card">
+                <div class="keynote-content">
+                    <div class="keynote-image-container">
+                        <img 
+                            src="{{ '/assets/images/speakers/' | append: keynote.image | relative_url }}" 
+                            alt="{{ keynote.name }}"
+                            class="speaker-image"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="keynote-info">
+                        <h3>{{ keynote.name }}</h3>
+                        <p class="speaker-title">{{ keynote.title }}</p>
+                        <div class="extended-bio">
+                            {{ keynote.extended_bio | markdownify }}
+                        </div>
+                        {% if keynote.presentation_abstract %}
+                        <div class="presentation-abstract">
+                            <h4>Keynote Address</h4>
+                            {{ keynote.presentation_abstract | markdownify }}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Welcome Address -->
+        <section class="welcome-section">
+            <h2>Welcome Address</h2>
+            {% assign welcome = site.data.speakers | where: "role", "Welcome Address" | first %}
+            <article class="speaker-card-extended">
+                <div class="speaker-image-container">
+                    <img 
+                        src="{{ '/assets/images/speakers/' | append: welcome.image | relative_url }}" 
+                        alt="{{ welcome.name }}"
+                        class="speaker-image"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="speaker-info-extended">
+                    <h3>{{ welcome.name }}</h3>
+                    <p class="speaker-title">{{ welcome.title }}</p>
+                    <div class="extended-bio">
+                        {{ welcome.extended_bio | markdownify }}
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Paper Presenters -->
+        <section class="presenters-section">
+            <h2>Paper Presenters</h2>
+            <div class="presenters-grid">
+                {% assign presenters = site.data.speakers | where: "role", "Community Paper Session" %}
+                {% for speaker in presenters %}
+                <article class="presenter-card">
+                    <div class="presenter-header">
+                        <div class="presenter-image-container">
+                            <img 
+                                src="{{ '/assets/images/speakers/' | append: speaker.image | relative_url }}" 
+                                alt="{{ speaker.name }}"
+                                class="speaker-image"
+                                loading="lazy"
+                            >
+                        </div>
+                        <div class="presenter-title">
+                            <h3>{{ speaker.name }}</h3>
+                            <p class="presentation-session">Community Paper Session</p>
+                        </div>
+                    </div>
+                    <div class="presenter-content">
+                        <div class="bio-preview">
+                            {{ speaker.bio | markdownify }}
+                        </div>
+                        <button class="btn-text read-more" aria-expanded="false" data-target="bio-{{ forloop.index }}">
+                            Read More ↓
+                        </button>
+                        <div id="bio-{{ forloop.index }}" class="extended-content" hidden>
+                            {{ speaker.extended_bio | markdownify }}
+                        </div>
+                        {% if speaker.presentation_abstract %}
+                        <div class="presentation-abstract">
+                            <h4>Presentation</h4>
+                            {{ speaker.presentation_abstract | markdownify }}
+                        </div>
+                        {% endif %}
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+
+        <!-- Romantic Session Presenters -->
+        <section class="presenters-section">
+            <h2>Romantic Presentation Session</h2>
+            <div class="presenters-grid">
+                {% assign romantic_presenters = site.data.speakers | where: "role", "Romantic Presentation Session" %}
+                {% for speaker in romantic_presenters %}
+                <article class="presenter-card">
+                    <div class="presenter-header">
+                        <div class="presenter-image-container">
+                            <img 
+                                src="{{ '/assets/images/speakers/' | append: speaker.image | relative_url }}" 
+                                alt="{{ speaker.name }}"
+                                class="speaker-image"
+                                loading="lazy"
+                            >
+                        </div>
+                        <div class="presenter-title">
+                            <h3>{{ speaker.name }}</h3>
+                            <p class="presentation-session">Romantic Presentation Session</p>
+                        </div>
+                    </div>
+                    <div class="presenter-content">
+                        <div class="bio-preview">
+                            {{ speaker.bio | markdownify }}
+                        </div>
+                        <button class="btn-text read-more" aria-expanded="false" data-target="bio-romantic-{{ forloop.index }}">
+                            Read More ↓
+                        </button>
+                        <div id="bio-romantic-{{ forloop.index }}" class="extended-content" hidden>
+                            {{ speaker.extended_bio | markdownify }}
+                        </div>
+                        {% if speaker.presentation_abstract %}
+                        <div class="presentation-abstract">
+                            <h4>Presentation</h4>
+                            {{ speaker.presentation_abstract | markdownify }}
+                        </div>
+                        {% endif %}
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+    </div>
+
+    <!-- Simple JavaScript for Read More functionality -->
+    <script>
+        document.querySelectorAll('.read-more').forEach(button => {
+            button.addEventListener('click', () => {
+                const target = document.getElementById(button.dataset.target);
+                const isExpanded = button.getAttribute('aria-expanded') === 'true';
+                
+                button.setAttribute('aria-expanded', !isExpanded);
+                target.hidden = isExpanded;
+                button.textContent = isExpanded ? 'Read More ↓' : 'Read Less ↑';
+            });
+        });
+    </script>
+</main>
