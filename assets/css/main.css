@@ -1582,3 +1582,66 @@ blockquote footer {
         display: block;
     }
 }
+
+/* Group Photo Section
+   ========================================================================== */
+   .group-photo-section {
+    margin-bottom: var(--spacing-xl);
+}
+
+.photo-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Create a container for the tilted image */
+    position: relative;
+    perspective: 1000px;
+}
+
+.photo-wrapper {
+    /* Container to handle the tilt */
+    position: relative;
+    transform: rotate(-2deg); /* Subtle counter-clockwise tilt */
+    transition: transform var(--transition-normal);
+    margin: var(--spacing-xl) auto;
+    max-width: 90%; /* Prevent edges from being cut off */
+}
+
+.photo-wrapper:hover {
+    transform: rotate(-2deg) scale(1.02);
+}
+
+.group-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    display: block;
+}
+
+.photo-caption {
+    font-family: var(--font-body);
+    font-style: italic;
+    color: var(--color-paynes-gray);
+    font-size: 1.3rem;
+    margin-top: var(--spacing-xl);
+    text-align: center;
+    /* Counter-rotate the caption to keep it level */
+    transform: rotate(2deg);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .photo-wrapper {
+        transform: rotate(-1deg); /* Slightly less tilt on mobile */
+    }
+    
+    .photo-wrapper:hover {
+        transform: rotate(-1deg) scale(1.02);
+    }
+    
+    .photo-caption {
+        transform: rotate(1deg);
+        font-size: 1rem;
+        padding: 0 var(--spacing-md);
+    }
+}
