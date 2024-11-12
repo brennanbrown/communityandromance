@@ -1,4 +1,5 @@
 - name: "Dr. Robert Boschman"
+  shortname: "Boschman"
   title: "Chair of the English Department"
   role: "Welcome Address"
   image: "boschman.jpg"
@@ -14,6 +15,7 @@
   writing_sample: "#"
 
 - name: "Meg Braem"
+  shortname: "Braem"
   title: "Keynote Speaker"
   role: "Keynote Address"
   image: "braem.jpg"
@@ -31,10 +33,11 @@
   writing_sample: "#"
 
 - name: "Sean Feeney"
+  shortname: "Feeney"
   title: "Presenter"
   role: "Romantic Presentation Session"
   image: "feeney.jpg"
-  bio: "An English Honours Student at MRU, Séan focuses on critical theory, editing, and creative writing. His academic interests span multicultural literature and nineteenth-century studies, with aspirations toward a career in education while pursuing personal writing projects."
+  bio: "An English Honours Student at MRU, Séan focuses on critical theory, editing, and creative writing. His academic interests span multicultural literature and nineteenth-century studies, deconstructing tropes within genre, and has aspirations toward a career in English education at secondary level while pursuing personal writing projects."
   extended_bio: |
     Séan Feeney is a 27-year-old English Honours Student at Mount Royal University. Throughout his academic career at MRU, he has found the most value in classes pertaining to critical theory, editing, multicultural literature, creative writing, and the nineteenth century. Utilizing the skills in writing he has developed over the years, combined with the work ethic of several years in the kitchen industry, Séan is proud of what he has produced for classes, as well as in his personal projects. He hopes to apply these skills to an active and rewarding career in education, while also engaging in writing projects he cares about. 
     
@@ -47,10 +50,11 @@
 
 
 - name: "Felix Da Costa Gomez"
+  shortname: "Da Costa Gomez"
   title: "Presenter"
   role: "Community Paper Session"
   image: "gomez.jpg"
-  bio: "A fourth-year English Honours student at MRU, Felix specializes in Critical Theory and Creative Writing. He recently published a poetry book titled I am Just Waiting for Something to Happen and serves as VP of Publishing for MRU's Creative Writing Club."
+  bio: A fourth-year English Honours student at MRU, Felix specializes in Critical Theory and Creative Writing. He indepdently published a poetry book titled *I'm Just Waiting for Something to Happen* and currently serves as Vice President of Publishing for Write Club, spearheading their second anthology. He is currently working on a Western novel trilogy.
   extended_bio: |
     Felix Da Costa Gomez is a twenty-one year old writer in his fourth and final year of his English Honours degree at Mount Royal University. Out of the wide array of classes offered in the English program, Felix’s interests are in the topics of Critical Theory and Creative Writing. On top of his Honours thesis, Felix has been working on a Western Novel Trilogy that includes elements of fantasy and subversive topics to reimagine the genre. In 2023, Felix published a poetry book titled I am Just Waiting for Something to Happen with his peer and friend Jake Beka, telling an anti-coming of age story that was brutally honest in its disgusting and beautiful subject matter. 
     
@@ -66,10 +70,11 @@
   writing_sample: "#"
 
 - name: "B. Kenneth Brown"
+  shortname: "Brown"
   title: "Presenter"
   role: "Community Paper Session"
   image: "brown.jpg"
-  bio: "A Queer Métis writer and scholar from Winnipeg, Kenneth is completing his English Honours at MRU while serving as Founder and President of the Write Club. His work explores Indigenous resilience and narrative sovereignty."
+  bio: "A Queer Métis writer and scholar from Winnipeg, Kenneth is completing his English Honours at MRU while serving as Founder and President of the Write Club, a creative collective for young adults on campus. He has indepedently published several chapbooks, and his work explores digital literature and Indigenous narrative sovereignty."
   extended_bio: |
     B. Kenneth Brown is an accomplished Queer Métis writer, scholar, and open-source web developer serving as the Founder and President of the Write Club. Currently completing his English Honours at Mount Royal University, his academic work explores Indigenous resilience, identity, and narrative sovereignty. His recently published research in the Mount Royal Undergraduate Humanities Review examines Indigenous representation in graphic novels, specifically analyzing "Nimkii" from This Place: 150 Years Retold and its portrayal of community resilience during the Sixties Scoop.
     
@@ -87,16 +92,21 @@
   writing_sample: "#"
 
 - name: "Ava Pusztai"
+  shortname: "Pusztai"
   title: "Presenter"
   role: "Romantic Presentation Session"
   image: "pusztai.jpg"
-  bio: "An English Honours student at MRU focusing on Romantic poetry and its intersections with modern interpretations of love and mortality."
+  bio: "A fourth-year English Honours student with a minor in Philosophy at MRU, Ava specializes in Romantic and Gothic literature, with particular focus on John Keats. Her academic excellence earned her an arts scholarship, and she aims to pursue a career in editing while continuing her research into representations of love and death in Romantic poetry."
   extended_bio: |
-    Ava Pusztai's research focuses on the enduring relevance of Romantic poetry in contemporary discourse. Her work examines how Romantic poets' explorations of love, mortality, and beauty continue to resonate with modern readers and influence current literary production.
+    Ava Pusztai is from a small hamlet in central Alberta and is a fourth year English Honours student with a minor in philosophy studies. She became an English major due to her continual love of reading, writing, and analyzing. Within such she found strong skills in critiquing and hopes to channel her education into a career as an editor. 
 
-    As an emerging scholar in the field of Romantic studies, Ava brings fresh perspectives to classical works while maintaining rigorous academic standards. Her research interests include the intersection of personal and universal themes in Romantic poetry.
+    Ava was an elected representative for her high school in which she spoke to the education division about what students lacked in the schooling system. As a teenager, Ava attended a series of classes taught by esteemed authors at Youth Write in which she learnt both strong story-telling and academic writing skills. In her graduating year at the age of seventeen, Ava wrote her 30-1 diploma on Shakespeare’s Hamlet in which only a handful of students in the province received grades of “Excellence” when writing on Shakespeare. She received a 94% placing her in the category of Excellence. From this and other accomplishments throughout high school English Language Arts, she was the single student in her graduating class to receive an arts scholarship for her Bachelor of Arts degree at Mount Royal University. 
+
+    Her interest in academic literature frequently gravitates towards Romanticism and Gothic genres enjoying works which question the meaning of human existence and ideas of death. Ava became connected to the writings of John Keats in her adolescence, finding his work to be incredibly moving and emotionally driven; this admiration has yet to yield. 
   presentation_abstract: |
-    "Representations of Love and Mortality in the Writing of John Keats" examines how Keats's poetry interweaves themes of romance and death to create a unique perspective on human experience. The presentation will explore how Keats's work continues to influence contemporary understandings of love, mortality, and artistic expression.
+    Ava’s Honours thesis focuses on the writings of John Keats and his representations of love and death. Ava analyzes a series of poems and letters of Keats in which he exercises his combination of love and death. He does this with a frequency no other Romantic poet does, which she notes through comparisons of the writings of William Blake and Lord Byron. 
 
-    Through close reading and historical context, this analysis will demonstrate the enduring relevance of Romantic poetry to modern discussions of love and mortality.
+    Keats has a habit of placing death and love alongside each other in which the experience of love is so overpowering and consuming that death is the favorable option or the ideal way to express devotion. His ideas of death for love fall into two categories pending on who the love is being expressed for. When speaking to a muse, the narrator wishes to die to express the intensity of his emotions and how deep his love runs. When drawn to a love of nature, there is a want to die because nothing else experienced in his life will be superior to this moment. 
+
+    Keats was not a religious poet, typically feeling skeptical about the existence of God in general causing beauty and love to become his religion. In this, his worship of love and beauty inherently leads to the final act of death as comes in other religious practices; to dedicate his entire life to beauty and love before his untimely demise at the age of twenty-five. He clearly writes in a letter to Fanny Brawne that “love is my religion. I could die for that. I could die for you.”
   writing_sample: "#"

@@ -1,39 +1,41 @@
-morning:
-  - time: "10:00am-10:30am"
-    event: "Morning Tea, Coffee, and Snacks"
-    location: "Room 3001"
-  
-  - time: "10:30am-12:00pm"
+schedule:
+  - time: "9:30am - 10:00am"
     events:
+      - type: "Morning Reception"
+        details: "Tea, Coffee, and Snacks"
+      - type: "Opening Ceremonies"
+        details: "Land Acknowledgement"
       - type: "Welcome Address"
         speakers:
           - name: "Dr. Robert Boschman"
             title: "Chair of the English Department"
-      
-      - type: "Keynote"
+
+  - time: "10:00am - 11:45am"
+    events:
+      - type: "Keynote Address"
         speakers:
           - name: "Meg Braem"
             title: "TBA"
-      
-      - type: "Community Paper Session"
-        speakers:
-          - name: "Felix Da Costa Gomez"
-            title: "Deterritorializing the Creative Writing Workshop: A Phenomenological Study on the Writing Workshop"
-          - name: "Kenneth Brown"
-            title: "HOW THE ENGLISH DEGREE WILL SAVE THE WORLD: Queering, Decolonizing and Democratizing Literary Studies"
+      - type: "Keynote Discussion"
+        details: "Interactive discussion with our keynote speaker"
 
-afternoon:
-  - time: "12:00pm-1:00pm"
-    event: "Lunch"
+  - time: "11:45am - 12:00pm"
+    event: "Tea and Coffee Break"
+    details: "Refreshments kindly donated by Second Cup"
+
+  - time: "12:00pm - 1:00pm"
+    event: "Community Paper Session"
+    speakers:
+      - name: "Felix Da Costa Gomez"
+        title: "Deterritorializing the Creative Writing Workshop: A Phenomenological Study on the Writing Workshop"
+      - name: "Kenneth Brown"
+        title: "HOW THE ENGLISH DEGREE WILL SAVE THE WORLD: Queering, Decolonizing and Democratizing Literary Studies"
+
+  - time: "1:00pm - 2:00pm"
+    event: "Lunch Break"
     details: "provided by Second Cup"
-    location: "Room 3001"
-  
-  - time: "2:00pm-2:15pm"
-    event: "Break"
-    details: "Tea, Coffee, and Snacks"
-    location: "Room 3001"
-  
-  - time: "2:15pm-3:30pm"
+
+  - time: "2:00pm - 3:00pm"
     event: "Romantic Presentation Session"
     speakers:
       - name: "Sean Feeney"

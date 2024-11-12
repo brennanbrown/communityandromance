@@ -1543,8 +1543,9 @@ blockquote footer {
 
 .photo-content {
     max-width: 1200px;
-    margin: 0 auto;
     padding: 0 var(--spacing-lg);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .group-photo {
@@ -1563,6 +1564,7 @@ blockquote footer {
 @media (max-width: 768px) {
     .photo-content {
         padding: 0 var(--spacing-md);
+        margin-top: -50px;
     }
     
     .group-photo {
@@ -1591,7 +1593,6 @@ blockquote footer {
 
 .photo-content {
     max-width: 1200px;
-    margin: 0 auto;
     /* Create a container for the tilted image */
     position: relative;
     perspective: 1000px;
