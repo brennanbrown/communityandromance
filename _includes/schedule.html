@@ -20,15 +20,15 @@
             {% if event.speaker %}
             <p>{{ event.speaker }}</p>
             {% if event.title %}
-            <p><em>{{ event.title }}</em></p>
+            <p>{{ event.title }}</p>
             {% endif %}
             {% endif %}
             
             {% if event.speakers %}
             {% for speaker in event.speakers %}
-            <p><em>{{ speaker.name }}</em></p>
+            <p class="speaker-name">{{ speaker.name }}</p>
             {% if speaker.title %}
-            <p>{{ speaker.title }}</p>
+            <p class="speaker-title">{{ speaker.title }}</p>
             {% endif %}
             {% endfor %}
             {% endif %}
@@ -50,9 +50,9 @@
         
         {% if item.speakers %}
         {% for speaker in item.speakers %}
-        <p>{{ speaker.name }}</p>
+        <p class="speaker-name">{{ speaker.name }}</p>
         {% if speaker.title %}
-        <p><em>{{ speaker.title }}</em></p>
+        <p class="speaker-title">{{ speaker.title }}</p>
         {% endif %}
         {% endfor %}
         {% endif %}

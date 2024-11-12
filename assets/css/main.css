@@ -128,8 +128,10 @@ section {
     padding: var(--spacing-xl) 0;
 }
 
-.about-section {
-  text-align: justify;
+@media (min-width: 1024px) {
+  .about-section {
+      text-align: justify;
+  }
 }
 
 /* Navigation
@@ -426,7 +428,7 @@ section {
 
 .schedule-time {
     font-family: var(--font-heading);
-    font-size: 1.1rem;
+    font-size: 1.7rem;
     color: var(--color-paynes-gray);
     margin-bottom: var(--spacing-xs);
 }
@@ -457,6 +459,14 @@ section {
     font-style: italic;
     font-size: 1.1rem;
     color: var(--color-paynes-gray);
+}
+
+.speaker-name {
+  font-weight: bold;
+}
+
+.speaker-title {
+  font-weight: italic;
 }
 
 /* Location Section
