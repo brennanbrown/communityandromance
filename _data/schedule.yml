@@ -1,41 +1,30 @@
-schedule:
-  - time: "9:30am - 10:00am"
+morning:
+  - time: "9:30am-10:00pm"
+    event: "Morning Tea, Coffee, and Snacks"
+    location: "Room 3001"
+  - time: "10:00am-11:45pm"
     events:
-      - type: "Morning Reception"
-        details: "Tea, Coffee, and Snacks"
-      - type: "Opening Ceremonies"
-        details: "Land Acknowledgement"
-      - type: "Welcome Address"
-        speakers:
-          - name: "Dr. Robert Boschman"
-            title: "Chair of the English Department"
+      - type: "Welcome Address and Land Acknowledgement"
+        speaker: "Dr. Robert Boschman"
+        title: "Chair of the English Department"
+      - type: "Keynote & Discussion"
+        speaker: "Meg Braem"
+        title: "TBA" # [NEED: Keynote title]
 
-  - time: "10:00am - 11:45am"
-    events:
-      - type: "Keynote Address"
-        speakers:
-          - name: "Meg Braem"
-            title: "TBA"
-      - type: "Keynote Discussion"
-        details: "Interactive discussion with our keynote speaker"
-
-  - time: "11:45am - 12:00pm"
-    event: "Tea and Coffee Break"
-    details: "Refreshments kindly donated by Second Cup"
-
-  - time: "12:00pm - 1:00pm"
+afternoon:
+  - time: "11:45am-12:45pm"
+    event: "Lunch"
+    location: "Room 3001"
+  - time: "12:45pm-1:45pm"
     event: "Community Paper Session"
     speakers:
       - name: "Felix Da Costa Gomez"
         title: "Deterritorializing the Creative Writing Workshop: A Phenomenological Study on the Writing Workshop"
       - name: "Kenneth Brown"
         title: "HOW THE ENGLISH DEGREE WILL SAVE THE WORLD: Queering, Decolonizing and Democratizing Literary Studies"
-
-  - time: "1:00pm - 2:00pm"
-    event: "Lunch Break"
-    details: "provided by Second Cup"
-
-  - time: "2:00pm - 3:00pm"
+  - time: "1:45-2:00pm"
+    event: "Break"
+  - time: "2:00pm-3:00pm"
     event: "Romantic Presentation Session"
     speakers:
       - name: "Sean Feeney"

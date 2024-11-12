@@ -985,54 +985,42 @@ blockquote footer {
 
 /* Print Styles
    ========================================================================== */
-@media print {
-    .navbar,
-    .footer,
-    .print-btn,
-    .schedule-actions,
-    .quick-links {
-        display: none !important;
+   @media print {
+    /* Hide everything except what we want to print */
+    body * {
+        visibility: hidden;
+    }
+    
+    .schedule-page,
+    .schedule-page * {
+        visibility: visible;
+    }
+    
+    .schedule-page {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
     }
 
+    /* Basic styles for printed schedule */
     .schedule-page {
-        padding: 0;
-        margin: 0;
+        font-size: 12pt;
+        line-height: 1.4;
     }
 
     .schedule-item {
+        margin-bottom: 20px;
         page-break-inside: avoid;
-        border: 1px solid #ddd;
-        margin-bottom: 1cm;
     }
 
-    .schedule-section {
-        page-break-before: always;
+    .schedule-time {
+        font-weight: bold;
     }
 
-    .schedule-section:first-of-type {
-        page-break-before: avoid;
-    }
-
-    body {
-        font-size: 11pt;
-        line-height: 1.4;
-        color: black;
-        background: white;
-    }
-
-    h1 { font-size: 18pt; }
-    h2 { font-size: 16pt; }
-    h3 { font-size: 14pt; }
-    h4 { font-size: 12pt; }
-
-    a {
-        text-decoration: none;
-        color: black;
-    }
-
-    .overview-card {
-        box-shadow: none;
-        border: 1px solid #ddd;
+    /* Hide print button when printing */
+    .print-btn {
+        display: none;
     }
 }
 
