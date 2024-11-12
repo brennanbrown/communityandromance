@@ -1538,7 +1538,6 @@ blockquote footer {
 /* Group Photo Section
    ========================================================================== */
    .group-photo-section {
-    padding: var(--spacing-xl) 0;
     background-color: var(--color-seasalt);
 }
 
